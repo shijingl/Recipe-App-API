@@ -3,6 +3,9 @@
 ### Project Introduction 
 
 ### How To Run 
+Build the docker: `docker build .` </br>
+Run: `docker-compose up`</br>
+Stop: `docker-compose down`</br>
 
 ### Travis CI Automation 
 
