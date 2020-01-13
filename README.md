@@ -8,6 +8,7 @@ Run: `docker-compose up`</br>
 Stop: `docker-compose down`</br>
 
 ### Travis CI Automation 
+This project is synced with Travis CI. Whenever a commit is pushed to the master branch, all the unit tests will be run and linting will me checked. 
 
 ### Django Custom User Model
 
