@@ -10,9 +10,10 @@ Stop: `docker-compose down`</br>
 ### Travis CI Automation 
 This project is synced with Travis CI. Whenever a commit is pushed to the master branch, all the unit tests will be run and linting will me checked. 
 
-### Django Custom User Model
-
-### Django Admin
+### Django Custom Admin and User Model 
+The Django Admin is customized for this project: /admin </br>
+To create a superuser, please run: </br>
+`sudo docker-compose run app sh -c "python manage.py createsuperuser"`</br>
 
 ### Database 
 
