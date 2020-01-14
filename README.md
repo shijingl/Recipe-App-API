@@ -32,7 +32,8 @@ In the docker-compose file setting, it will wait for database migration before i
 4. Recipe Recipes List: /api/recipe/recipes/
 5. Recipe Recipe: /api/recipe/recipes/int: id/
 6. Reciep Recipe Upload Image: /api/recipe/recipes/int: id/upload-image/ 
-
-### Filtering
+7. Recipe Tags and Ingredients Filtering: /api/recipe/recipes/?tags = int: id & ingredient = int: id
+8. Recipe Tags Assigned Only Filtering: /api/recipe/recipes/tags/assigned_only = int: id 
+9. Recipe Ingredients Assigned Only Filtering: /api/recipe/recipes/ingredients/assigned_only = int: id 
 
 ### Tests
