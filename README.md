@@ -17,7 +17,7 @@ To create a superuser, please run: </br>
 
 ### Database 
 Database is set up to be postgresql </br>
-In the docker-compose file setting, it will wait for database before it starts django application: </br>
+In the docker-compose file setting, it will wait for database migration before it starts django application: </br>
 `sh -c "python manage.py wait_for_db && python manage.py migrate && python manage.py runserver 0.0.0.0:9001"`
 
 ### Endpoints
