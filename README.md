@@ -1,6 +1,7 @@
 # Recipe-App-API
 
 ### Project Introduction 
+This is a Recipe App API project written in a Test Driven Development (TDD) approach. The API endpoints are written using Python/Django. Application and database are containerized using Docker. 
 
 ### How To Run 
 Build the docker: `docker build .` </br>
@@ -37,3 +38,4 @@ In the docker-compose file setting, it will wait for database migration before i
 9. Recipe Ingredients Assigned Only Filtering: /api/recipe/recipes/ingredients/assigned_only = int: id 
 
 ### Tests
+Unit tests for models, admin and all the api end points. 
