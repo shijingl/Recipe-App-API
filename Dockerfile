@@ -23,4 +23,4 @@ RUN chown -R user:user /vol/
 RUN chmod -R 755 /vol/web
 USER user
 
-EXPOSE 80
+EXPOSE 9001
